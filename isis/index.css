@@ -54,8 +54,19 @@ img{
     z-index: 1;
 }
 
-#button{
+#submit{
     text-align: center;
+}
+
+#download{
+    margin-left: 12%;
+    text-align: center;
+}
+
+#download p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
 }
 
 button{

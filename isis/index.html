@@ -3,6 +3,20 @@
 <head>
     <title>Isis</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('#download').hide();
+            
+            $('#submit').click(function(){
+                $('#show-first').hide();
+                $('#download').show();
+            });
+//            $('#show-first').hide();
+        });
+    </script>
 
 </head>
 
@@ -17,22 +31,33 @@
         </div>
 
         <div id="welcome"><p>Welcome Guest!</p></div>
-        <p>Log In</p>
-            
-      
-        <div id="form">
-          User ID:
-          <input type="text" name="firstname">
-          <br><br>
-          Password:
-          <input type="text" name="lastname">
+        
+        <div id="show-first">
+            <p>Log In</p>
+
+            <div id="form">
+              User ID:
+              <input type="text">
+              <br><br>
+              Password:
+              <input type="password">
+            </div>
+            <br><br>
+            <div id="submit"><button>Submit</button></div>
+            <br>
         </div>
-        <br><br>
-        <div id="button"><button>Submit</button></div>
-        <br>
+        
+        <div id="download">
+            <p>By clicking download, you are consenting to downloading a virus made for a class              project.</p>
+            
+            <form method="get" action="virus.zip">
+            <button type="submit">Download</button>
+            </form>
+        </div>
         
     </div>
     <div id="grey-background"></div>
+    
   
 </div>
 
