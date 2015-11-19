@@ -9,8 +9,8 @@ a{
 
 #content{
     margin-top: 10px;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 17%;
+    margin-right: 17%;
     z-index: 1;
 }
 
@@ -63,6 +63,7 @@ img{
 
 #form{
     font-size: 12px;
+    margin-left: 33px;
 }
 
 input[type="text"] {
