@@ -3,11 +3,14 @@ body{
     font-family: arial, helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 #content{
-    margin-top: 40px;
-    margin-left: 13%;
-    margin-right: 13%;
-    background-color: #FEFEFF;
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
     z-index: 1;
 }
 
@@ -36,6 +39,10 @@ img{
     display: inline-block;
 }
 
+#row1{
+    background-color: #FEFEFF;
+}
+
 #row1 li{
     display: inline-block;
     font-size: 14px;
@@ -50,17 +57,31 @@ img{
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    margin-top: 25px;
+    margin-top: 46px;
     z-index: 1;
+}
+
+#form{
+    font-size: 12px;
+}
+
+input[type="text"] {
+    margin-left: 16px;
+}
+
+input[type="password"] {
+    margin-left: 5px;
 }
 
 #submit{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #download{
     margin-left: 12%;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 #download p{
@@ -70,15 +91,15 @@ img{
 }
 
 button{
-    font-size: 15px;
+    font-size: 11px;
     background-color: white;
     border-radius: 4px;
-    width: 140px;
-    height: 40px;
+    width: 110px;
+    height: 30px;
 }
 
 #grey-background{
     background-color: #EBEBEB;
-    height: 395px;
+    height: 380px;
     z-index: -1;
 }
