@@ -79,11 +79,6 @@ input[type="password"] {
     margin-bottom: 50px;
 }
 
-#submit button:hover{
-    background-color: darkgrey;
-    color: white;
-}
-
 #download{
     margin-left: 12%;
     text-align: center;
@@ -102,6 +97,11 @@ button{
     border-radius: 4px;
     width: 110px;
     height: 30px;
+}
+
+button:hover{
+    background-color: darkgrey;
+    color: white;
 }
 
 #grey-background{
