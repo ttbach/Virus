@@ -14,11 +14,10 @@ a{
     z-index: 1;
 }
 
-#content p{
+
+#show-first p{
     text-align: center;
-    font-weight: bold;
     font-size: 20px;
-    
 }
 
 #welcome{    
@@ -85,10 +84,14 @@ input[type="password"] {
     margin-bottom: 150px;
 }
 
-#download p{
+#consent{
     text-align: center;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 13px;
+}
+
+.instructions{
+    font-size: 12px
 }
 
 button{
