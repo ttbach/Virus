@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.Untitled</string>
+	<string>com.apple.ScriptEditor.id.virus</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Untitled</string>
+	<string>virus</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
